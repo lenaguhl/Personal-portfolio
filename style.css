@@ -3,4 +3,13 @@ body {
 }
 h1 {
   font-family: "Train One", cursive;
+  text-align: center;
+}
+.contact-button {
+  background: darkseagreen;
+  display: block;
+  margin: 0 auto;
+}
+.contact-info {
+    text-align: center;
 }
