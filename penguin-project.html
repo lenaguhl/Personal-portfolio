@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin species</title>
+    <style>
+      a {
+        color: #019192;
+      }
+      body {
+        background: linear-gradient(#019192, aliceblue);
+        display: block;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 0 auto;
+      }
+      button {
+        background: white;
+        border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        display: block;
+        font-size: 25px;
+        margin: 0 auto;
+        padding: 10px;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+      figcaption {
+        font-size: 15px;
+        text-align: center;
+        width: 170px;
+      }
+      footer {
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      #gallery {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 170px 170px 170px 170px 170px 170px;
+      }
+      h1 {
+        color: white;
+        font-size: 4em;
+        margin: 30px 10px 10px 10px;
+        text-align: center;
+      }
+      h2 {
+        color: white;
+        font-weight: lighter;
+        margin: 0;
+        text-align: center;
+      }
+      img {
+        border-radius: 10px;
+        height: auto;
+        width: 170px;
+      }
+      .learnMore {
+        text-align: center;
+        text-decoration: none;
+      }
+      p {
+        display: block;
+        line-height: 1.5;
+        margin: 40px;
+        text-align: center;
+      }
+      span {
+        text-decoration: underline;
+      }
+      .species {
+        opacity: 0;
+        transition: all 500ms ease-in;
+      }
+      .species:hover {
+        opacity: 1;
+        cursor: default;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Penguin Species</h1>
+    <h2>Become a penguin expert</h2>
+    <br />
+    <br />
+
+    <button><strong>Are you a penguin expert, already?</strong></button>
+
+    <p>
+      Penguins are a group of aquatic flightless birds.
+      <br />
+      The largest living species is the emperor penguin.
+      <br />
+      The smallest penguin species is the little blue penguin also known as the
+      fairy penguin.
+      <br />
+      Depending on which authority is followed, penguin biodiversity varies
+      between 17 and 20 living species. (Wikipedia)
+    </p>
+    <p>
+      Here, you can see 18 different species.
+      <br />
+      Guess the species name and hover <span>below</span> the picture to see if
+      you're right.
+    </p>
+
+    <figure id="gallery">
+      <div>
+        <figure>
+          <img
+            src="https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/10/1dgha7om40__Julie_Larsen_Maher_9476_Macaroni_Penguins_CPZ_06_22_17.jpg"
+            alt="Macaroni penguin"
+          />
+          <figcaption class="species">Macaroni penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://cdn.clickasnap.com/0x800/1141786/dsc01126-yescs.JPG"
+            alt="Humboldt penguin"
+          />
+          <figcaption class="species">Humboldt penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Northern_Rockhopper_Penguin_on_Inaccessible_Island_%28portrait%29.jpg/1200px-Northern_Rockhopper_Penguin_on_Inaccessible_Island_%28portrait%29.jpg"
+            alt="Northern Rockhopper"
+          />
+          <figcaption class="species">Northern Rockhopper</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <figure>
+          <img
+            src="https://nzbirdsonline.org.nz/sites/all/files/1200119yellow%20eyed%20penguin.JPG"
+            alt="Yellow-eyed penguin"
+          />
+          <figcaption class="species">Yellow-eyed penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="http://1.bp.blogspot.com/-h9jNI970rQA/Vo51RiMrDeI/AAAAAAAAqb8/7GOceaaSXWU/s1600/2016_penguins_aewa-side.jpg"
+            alt="Galápagos penguin"
+          />
+          <figcaption class="species">Galápagos penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://www.leisureopportunities.co.uk/images/HIGH175266_487521.jpg"
+            alt="Southern Rockhopper"
+          />
+          <figcaption class="species">Southern Rockhopper</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <figure>
+          <img
+            src="https://nzbirdsonline.org.nz/sites/all/files/1200110Chinstrap%20Penguin%2CSouth%20Shetland%20Islands%2C081119%2C-93-Editwebnz.jpg"
+            alt="Chinstrap penguin"
+          />
+          <figcaption class="species">Chinstrap penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/King_penguin_Aptenodytes_patagonicus-4932.jpg/1200px-King_penguin_Aptenodytes_patagonicus-4932.jpg"
+            alt="King penguin"
+          />
+          <figcaption class="species">King penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="http://www.lehnert-web.de/wp-content/gallery/antarctica/LL-3109.jpg"
+            alt="Emperor penguin"
+          />
+          <figcaption class="species">Emperor penguin</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/EA-GQ0XXUAAClGJ.jpg"
+            alt="Adèlie penguin"
+          />
+          <figcaption class="species">Adèlie penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://img2.juzaphoto.com/001/shared_files/uploads/36761.jpg"
+            alt="Gentoo penguin"
+          />
+          <figcaption class="species">Gentoo penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://www.antarctica.gov.au/site/assets/files/29616/20161108125042-.1200x0.jpg"
+            alt="Fiordland penguin"
+          />
+          <figcaption class="species">Fiordland penguin</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Magellanic_Penguin_%284313109182%29.jpg/1200px-Magellanic_Penguin_%284313109182%29.jpg"
+            alt="Magellanic penguin"
+          />
+          <figcaption class="species">Magellanic penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://nzbirdsonline.org.nz/sites/all/files/1200118Royal%20Penguin%2CMacquarie%20Islanda%2C170118%2C-73-Edit-Editwebnz.jpg"
+            alt="Royal penguin"
+          />
+          <figcaption class="species">Royal penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://www.deine-tierwelt.de/magazin/wp-content/uploads/sites/7/2018/04/Zwergpinguine.jpg"
+            alt="Little penguin"
+          />
+          <figcaption class="species">Little penguin</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <figure>
+          <img
+            src="https://www.peta.de/wp-content/uploads/2021/09/Humboldtpinguin-penguin-4358359-c-pixabay.jpg"
+            alt="African penguin"
+          />
+          <figcaption class="species">African penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://nzbirdsonline.org.nz/sites/all/files/1200116IMG_0335b%20new.JPG"
+            alt="Erect-crested penguin"
+          />
+          <figcaption class="species">Erect-crested penguin</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://nzbirdsonline.org.nz/sites/all/files/1200115Birds%20online%20CD2%20072.jpg"
+            alt="Snares penguin"
+          />
+          <figcaption class="species">Snares penguin</figcaption>
+        </figure>
+      </div>
+    </figure>
+    <hr />
+
+    <div class="learnMore">
+      Learn more on
+      <a href="https://en.wikipedia.org/wiki/Penguin" target="_blank"
+        ><em>Wikipedia</em>
+      </a>
+    </div>
+    <br />
+
+    <footer>This page was built by Lena Guhl</footer>
+
+    <script>
+      function quiz() {
+        let name = prompt("What's your name?");
+        let number = prompt("How many penguin species do you know?");
+
+        if (number < 5) {
+          alert(
+            name +
+              ", you are missing out! 😲 Take a look at the pictures below."
+          );
+        } else {
+          if (number >= 15) {
+            alert("Wow, " + name + "! You are a real penguin expert 🤩");
+          } else {
+            alert(
+              "Very good, " +
+                name +
+                ", but there are still more you can get to know 🐧"
+            );
+          }
+        }
+      }
+      let quizButton = document.querySelector("button");
+      quizButton.addEventListener("click", quiz);
+    </script>
+  </body>
+</html>
