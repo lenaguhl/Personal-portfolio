@@ -1,16 +1,41 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+figcaption {
+  text-align: center;
+}
 h1 {
   font-family: "Train One", cursive;
+  font-size: 50px;
   padding: 20px;
   text-align: center;
 }
-.contact-button {
-  background: darkseagreen;
-  display: block;
-  margin: 0 auto;
-}
-.contact-info {
+h2 {
+  font-family: "Train One", cursive;
+  font-size: 50px;
   text-align: center;
+}
+h6 {
+  padding-left: 30px;
+  font-weight: 100;
+}
+.hr-style {
+  border: 2px solid #b5e0b5;
+}
+.about-paragraph {
+  text-align: center;
+}
+.coding-icon {
+  width: 40px;
+}
+.contact-icon {
+  color: #b5e0b5;
+  font-size: 40px;
+  text-align: center;
+}
+.email,
+.linkedin {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 200px;
 }
