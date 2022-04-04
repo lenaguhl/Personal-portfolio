@@ -26,10 +26,7 @@
     <title>Front-end developer | Lena Guhl</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-light navbar-expand-lg"
-      style="background-color: #b5e0b5"
-    >
+    <nav class="navbar navbar-light navbar-expand-lg bg-white fixed-top">
       <!-- Navbar content -->
 
       <div class="container-fluid">
@@ -47,7 +44,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
             <a class="nav-link" href="projects.html">Projects</a>
             <a class="nav-link" href="about.html">About</a>
             <a class="nav-link" href="contact.html">Contact</a>
@@ -55,44 +54,24 @@
         </div>
       </div>
     </nav>
-    <h1>Hi, I'm Lena Guhl</h1>
-    <p class="about-paragraph">I live in Hamburg, Germany
-    <br />
-    I've been learning front-end development since November 2021
-</p>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <h6>latest work</h6>
-    <hr class="hr-style"/>
-
-    <div class="container">
+    <h1 class="mt-5">Hi, I'm Lena Guhl</h1>
+    <div class="container justify-content-between">
       <div class="row">
-        <div class="col-sm-3">
-        <figure>
-        <img
-          src="weather-project.PNG"
-          alt="weather project"
-          class="img-fluid rounded border border-dark"
-        />
-        <figcaption>Weather Project</figcaption>
-      </figure>
-      </div>
-    <div class="col-sm-3">
-      <figure>
-        <img
-          src="penguin-project.PNG"
-          alt="penguin project"
-          class="img-fluid rounded border border-dark"
-        />
-        <figcaption>Penguin project</figcaption>
-      </figure>
+        <div class="col-md-6">
+          <p class="about-paragraph">
+            I live in Hamburg, Germany
+            <br />
+            I've been learning front-end development since November 2021
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="images/profile-picture.jpg"
+            alt="profile-picture"
+            class="img-fluid rounded profile-picture"
+          />
+        </div>
       </div>
     </div>
-    <hr class="hr-style"/>
   </body>
 </html>
