@@ -13,7 +13,11 @@ h2 {
   font-size: 50px !important;
   text-align: center;
 }
-
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 150px;
+}
 .active,
 .nav-link:hover {
   color: rgb(143, 188, 143) !important;
@@ -34,5 +38,4 @@ h2 {
 }
 .profile-picture {
   width: 350px;
-  margin-bottom: 20px;
 }
