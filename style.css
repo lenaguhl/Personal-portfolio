@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(143, 188, 143, 0.4) !important;
+  background-color: rgb(143, 188, 143, 0.3) !important;
   font-family: "Montserrat", sans-serif;
 }
 h1 {
@@ -13,10 +13,14 @@ h2 {
   font-size: 50px !important;
   text-align: center;
 }
-footer {
+h3 {
+  margin-top: 60px !important;
   text-align: center;
+}
+footer {
   font-size: 12px;
   margin-top: 150px;
+  text-align: center;
 }
 .active,
 .nav-link:hover {
@@ -29,7 +33,6 @@ footer {
 .coding-icon {
   width: 40px;
 }
-
 .email,
 .linkedin {
   font-size: 16px;
@@ -38,4 +41,6 @@ footer {
 }
 .profile-picture {
   width: 350px;
+  display: block;
+  margin: 0 auto;
 }
